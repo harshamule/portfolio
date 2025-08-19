@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a68b35d44e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="position">
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                    <img src=" https://i.ytimg.com/vi/q5vS2DEHuas/maxresdefault.jpg" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+
+                </nav>
+                <div class="header-text">
+                    <h1>Hello,<br>I'm <span>Charan Kumar</span></h1>
+                </div>
+                <div class="wrapper">
+                    <h1><span class="auto-type"></span></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------about----------------------about------------------------------about-------------------------------about-------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="https://img.hotimg.com/web.jpeg" />
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="para">My Name is Charan Kumar Reddy, Iam a web developer and I Had completed hands on projects using HTML,CSS,JS and
+                        I am a looking for internship in Frontend Development.I am a self learner and
+                        self motivated and Hard worker.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education </p>
+                        <p class="tab-links" onclick="opentab('Projects')">Projects</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App User Interfaces.</li>
+                            <li><span> Web Developer</span><br>Developing A Web Applications.</li>
+                            <li><span>Frontend Developer</span><br>Development of the graphical user interface of a website.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2022-Current</span><br> CSE from Saveetha University Chennai.</li>
+                            <li><span>2020-2022</span><br> Inter from Narayana Jr.College Tirupathi.</li>
+                            <li><span> 2016-2020</span><br> Narayana Etechno School Chittoor. </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Projects">
+                        <ul>
+                            <li><span>Ecommerce Webpage</span><br>Designed an Ecommerce Responsive Webpage using HTML,CSS and
+                                It is easy Buy a products in Online and saves Time.</li>
+                            <li><span>Online Food Order</span><br> Online food ordering is the process of ordering food, for delivery or pickup,
+                                from a website or other application.</li>
+                            <li><span>Todos List App</span><br> To-do lists to take care of tasks and to achieve their goals.
+                                Their to-do list may be the primary tool that they refer to throughout the day. </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-col-2">
+                    <img src="https://img.hotimg.com/web.jpeg" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------------------------------------------services---------------------srvices------------------------------------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div class=" para3">
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p> Web design is the process of creating, planning, and implementing a
+                        website's design. The goal is to create a website that is easy to use,
+                        informative, and visually appealing. </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="para3">
+                    <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UI/UX design is the process of designing digital products like apps, websites,
+                        and software. It combines user experience design (UX) and user interface design (UI).</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="para3">
+                    <i class="fa-sharp fa-solid fa-apple-whole"></i>
+                    <h2>App Design</h2>
+                    <p>App design is the process of creating a mobile app's look and feel. It's a combination of
+                        user interface (UI) and user experience (UX). The goal of app design is to make the app
+                        easy to use and intuitive</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-----------------------------portfolio-------------------------portfolio----------------------------------portfolio----------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="https://burst.shopifycdn.com/photos/flatlay-iron-skillet-with-meat-and-other-food.jpg?width=1000&format=pjpg&exif=0&iptc=0" />
+                    <div class="layer">
+                        <h3>Food Order Web</h3>
+                        <p>An online food ordering system is a web-based system that allows customers to
+                            order food from a restaurant directly</p>
+                        <a href="https://foodmuch225.ccbp.tech/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="https://as2.ftcdn.net/v2/jpg/04/14/94/83/1000_F_414948321_zaEcv8zCAH6W324yEz6wW0kXZLSwR1JG.jpg">
+                    <div class="layer">
+                        <h3>E-commerce</h3>
+                        <p> Ecommerce is a method of buying and selling goods and services online. The definition of ecommerce business
+                            can also include tactics like affiliate marketing.</p>
+                        <a href="https://ecommerce225.ccbp.tech"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="https://images.ctfassets.net/yewqr8zk7e5s/migrated-5485/24d51134cdf1ab56c0a08ee4b5f01a86/dynamic-web-pages.jpg">
+                    <div class="layer">
+                        <h3>Dynamic web</h3>
+                        <p> A dynamic website is a set of pages that changes based on a user's location, past actions, time zone,
+                            and other factors. Dynamic websitesgenerate pages in real time and respond to characteristics</p>
+                        <a href="https://todolist225.ccbp.tech/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="button">See More</a>
+        </div>
+    </div>
+    <!---contact-----------------------contact----------------------------------contact----------------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="vertically">
+                    <div class="contact-left">
+                        <h1 class="" sub-title>Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>charan2306@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>9398284994</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/profile.php?id=100054563970656&sfnsn=wiwspwa&mibextid=RUbZ1f"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://x.com/CharanKuma25170?t=8GmqbU4hNiN2QrTAGaac-Q&s=09"><i class="fa-brands fa-twitter-square"></i></a>
+                            <a href="https://www.instagram.com/____d_a_r_k_s_o_u_l___"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/charankumar-69954a282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="c:\Users\CHARAN KUMAR REDDY\OneDrive\Pictures\Screenshots\my-cv.pdf.docx" download class="button btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your email" required>
+                            <input type="tel" name="Phone" placeholder="Phone No:" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="button btn2">submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Charan.Made with <i class="fas fa-heart"></i> by HTML,CSS,Javascript</p>
+        </div>
+    </div>
+</body>
+
+</html>
